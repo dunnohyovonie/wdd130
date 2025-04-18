@@ -1,0 +1,68 @@
+header {
+    background: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto 1fr; /* Logo takes auto width, nav takes remaining space */
+    align-items: center; /* Vertically align items */
+}
+header img {
+    width: 150px; /* Adjust logo size */
+    height: auto;
+}    
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    flex-direction: row;
+    font-weight: bold;
+}
+main img{
+    width: 150px;
+    height: auto;
+}
+aside img{
+    width: 200px;
+    height: auto;
+}
+aside{
+    width: 20em;
+    margin: 1em;
+    border: 1px solid rgba(red, green, blue, alpha);
+    padding: 1em;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+header nav a{
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+p{
+    padding: 0;
+}
+/* Footer */
+footer {
+    background: var(--primary-color);
+    color: rgb(11, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    
+}
+footer a img {
+    width: 30px;
+    margin: 5px;
+    
+}
+
+footer a {
+    justify-self: end;
+    text-decoration: none;
+}
+footer p a:hover{
+    color: rgb(7, 0, 0);
+
+}
